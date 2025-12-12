@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+    background-image: url('https://s0.tchkcdn.com/g-I-meMShpSPGyU6QAHL1TUQ/17/259380/660x480/c/0/0_67_1080_785/25c_43779051_2210198759256134_5454878772168867677_n.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.h1text {
+    text-align: center;
+    background-color: #c8bd8d;
+    border-radius: 10px;
+    background-image: linear-gradient(#C8B392, #AA8855);
+}
+
+/* --- форма --- */
+.form-box {
+    background-color: #C8B392;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    border: 10px double #AA8855;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-box label {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+input,
+textarea {
+    border: 3px solid #AA8855;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 18px;
+    color: #000;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+/* Навігація */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #C8B392;
+    box-shadow: 3px 5px 0 0 #AA8855;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    position: relative;
+    bottom: 9px;
+    right: 7px;
+}
+
+/* --- повідомлення (приховане) --- */
+.msg {
+    display: none;
+    background-color: #C8B392;
+    border-radius: 10px;
+    border: 3px solid #AA8855;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* --- коли кнопка у фокусі — показати повідомлення --- */
+.send-btn:focus+.msg {
+    display: block;
+}
+
+/* --- футер --- */
+.decoration {
+    background-color: #AA8855;
+    border-radius: 10px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+    margin: 10px;
+}
+
+.footer-number {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}

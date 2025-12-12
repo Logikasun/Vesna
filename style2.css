@@ -1,0 +1,134 @@
+body {
+    font-family: sans-serif;
+    background-image: url('https://s0.tchkcdn.com/g-I-meMShpSPGyU6QAHL1TUQ/17/259380/660x480/c/0/0_67_1080_785/25c_43779051_2210198759256134_5454878772168867677_n.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.h1text {
+    text-align: center;
+    background-color: #c8bd8d;
+    border-radius: 10px;
+    background-image: linear-gradient(#C8B392, #AA8855);
+}
+
+.text {
+    background-color: #bda37bde;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.decoration {
+    background-color: #AA8855;
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
+    padding: 6px;
+    margin: 6px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #C8B392;
+    box-shadow: 3px 5px 0 0 #AA8855;
+}
+
+.nav-link:hover {
+    position: relative;
+    bottom: 9px;
+    right: 7px;
+}
+
+.picture {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.picture img {
+    width: 70%;
+}
+
+.kwartura_text {
+    width: 50%;
+
+}
+
+.kwartura_text h3 {
+    color: rgb(84, 71, 54);
+}
+
+.container {
+    display: flex;
+}
+
+.reviews-section {
+    background-color: rgba(189, 163, 123, 0.7);
+    /* напівпрозорий фон, як у твоїх text */
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    color: #ffffff;
+}
+
+.reviews-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(#C8B392, #AA8855);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.review-card {
+    background-color: rgba(170, 136, 85, 0.6);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.review-card h3 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.review-card .rating {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.review-card p {
+    font-size: 18px;
+}
+
+.picture img:hover {
+    box-shadow: 15px 7px 4px 0px rgba(0, 0, 0, 0.3);
+    transition: 1s linear;
+}
+
+.review-card:hover {
+    transform: scale(1.1);
+    transition: 1s linear;
+    padding: 10px;
+    margin: 10px;
+}
